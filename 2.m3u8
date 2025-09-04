@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-http://eag23.ddns.net:80/play/live.php?mac=00:1A:79:ab:54:f8&stream=114052&extension=m3u8
+http://ffg.gogo8k.me:80/play/live.php?mac=00:1A:79:00:23:B1&stream=1201140&extension=m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-http://eag23.ddns.net:80/play/live.php?mac=00:1A:79:ab:54:f8&stream=3853&extension=m3u8
+http://ffg.gogo8k.me:80/play/live.php?mac=00:1A:79:00:23:B1&stream=706550&extension=m3u8
