@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=5000000,RESOLUTION=1920x1080
-http://new.tryv24.shop/Nboxtv_857858/KsAKkuKx/129834
+http://new.tryv24.shop/Nboxtv_857858/KsAKkuKx/129834.ts
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-http://new.tryv24.shop/Nboxtv_857858/KsAKkuKx/689913
+http://new.tryv24.shop/Nboxtv_857858/KsAKkuKx/689913.ts
