@@ -1,3 +1,5 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-http://zain4k.com:8080/live/05352203888/16734062161575/310412.m3u8
+http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/128858.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
+http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/128852.m3u8
