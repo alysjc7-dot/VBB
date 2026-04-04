@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" minBufferTime="PT0.0S" availabilityStartTime="2026-04-03T07:53:47.976Z" minimumUpdatePeriod="PT1S" publishTime="2026-04-04T14:34:38.462Z" timeShiftBufferDepth="PT40.0S" maxSegmentDuration="PT2.0S" suggestedPresentationDelay="PT2S">
+  <ProgramInformation>
+    <Title>beIN Sport HD 1-AR</Title>
+  </ProgramInformation>
+  <ServiceDescription id="0"></ServiceDescription>
+  <Period id="0" start="PT0S">
+    <AdaptationSet bitstreamSwitching="true" frameRate="25/1" startWithSAP="1" id="0" segmentAlignment="true" par="16:9" maxWidth="1920" maxHeight="1080" contentType="video">
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="4096000" codecs="hev1.1.6.L120.90" height="1080" id="0" width="1920">
+        <SegmentTemplate initialization="video-hevc-1920x1080-init$RepresentationID$.m4s?me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=3f47517f&amp;me-bt=live.0vcmc02vl8agx9z8jqsx" media="video-hevc-1920x1080-$RepresentationID$-$Number$.m4s?me-sg=$Number$&amp;me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=3f47517f" startNumber="77258037" offsetNumber="77258019" timescale="12800">
+          <SegmentTimeline>
+            <S t="1413376000" d="25600" r="19"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="3072000" codecs="hev1.1.6.L120.90" height="1080" id="1" width="1920">
+        <SegmentTemplate initialization="video-hevc-1920x1080-init$RepresentationID$.m4s?me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=91253f7e" media="video-hevc-1920x1080-$RepresentationID$-$Number$.m4s?me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=91253f7e&amp;me-sg=$Number$&amp;me-bt=live.0vcmc02vl8agx9z8jqsx" startNumber="77258037" offsetNumber="77258019" timescale="12800">
+          <SegmentTimeline>
+            <S t="1413376000" d="25600" r="19"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="2048000" codecs="hev1.1.6.L93.90" height="720" id="2" width="1280">
+        <SegmentTemplate initialization="video-hevc-1280x720-init$RepresentationID$.m4s?me-st=dfb65d4e&amp;me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b" media="video-hevc-1280x720-$RepresentationID$-$Number$.m4s?me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=dfb65d4e&amp;me-sg=$Number$" startNumber="77258037" offsetNumber="77258019" timescale="12800">
+          <SegmentTimeline>
+            <S t="1413376000" d="25600" r="19"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation sar="64:45" mimeType="video/mp4" bandwidth="1024000" codecs="hev1.1.6.L90.90" height="576" id="3" width="720">
+        <SegmentTemplate initialization="video-hevc-720x576-init$RepresentationID$.m4s?me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=2064cee5&amp;me-bt=live.0vcmc02vl8agx9z8jqsx" media="video-hevc-720x576-$RepresentationID$-$Number$.m4s?me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=2064cee5&amp;me-sg=$Number$" startNumber="77258037" offsetNumber="77258019" timescale="12800">
+          <SegmentTimeline>
+            <S t="1413376000" d="25600" r="19"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="512000" codecs="hev1.1.6.L63.90" height="360" id="4" width="640">
+        <SegmentTemplate initialization="video-hevc-640x360-init$RepresentationID$.m4s?me-st=adac4b47&amp;me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b" media="video-hevc-640x360-$RepresentationID$-$Number$.m4s?me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=adac4b47&amp;me-sg=$Number$" startNumber="77258037" offsetNumber="77258019" timescale="12800">
+          <SegmentTimeline>
+            <S t="1413376000" d="25600" r="19"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet bitstreamSwitching="true" startWithSAP="1" id="1" segmentAlignment="true" lang="ara" contentType="audio">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="128000" codecs="mp4a.40.2" id="5">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <SegmentTemplate initialization="audio-init$RepresentationID$.m4s?me-st=f1b03e7f&amp;me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b" media="audio-$RepresentationID$-$Number$.m4s?me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=f1b03e7f&amp;me-sg=$Number$" startNumber="77258037" offsetNumber="77258019" timescale="48000">
+          <SegmentTimeline>
+            <S t="5300161078" d="96256"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256" r="1"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet bitstreamSwitching="true" startWithSAP="1" id="2" segmentAlignment="true" lang="eng" contentType="audio">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="128000" codecs="mp4a.40.2" id="6">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <SegmentTemplate initialization="audio-init$RepresentationID$.m4s?me-st=cbdd877f&amp;me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b" media="audio-$RepresentationID$-$Number$.m4s?me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=cbdd877f&amp;me-sg=$Number$" startNumber="77258037" offsetNumber="77258019" timescale="48000">
+          <SegmentTimeline>
+            <S t="5300160950" d="96256" r="1"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet bitstreamSwitching="true" startWithSAP="1" id="3" segmentAlignment="true" lang="ara" contentType="audio">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="128000" codecs="mp4a.40.2" id="7">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="6"></AudioChannelConfiguration>
+        <SegmentTemplate initialization="audio-init$RepresentationID$.m4s?me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=c55c7069&amp;me-bt=live.0vcmc02vl8agx9z8jqsx" media="audio-$RepresentationID$-$Number$.m4s?me-sg=$Number$&amp;me-bt=live.0vcmc02vl8agx9z8jqsx&amp;me-ch=79c9c3765c92d3ee7100533e61987a91581b&amp;me-st=c55c7069" startNumber="77258037" offsetNumber="77258019" timescale="48000">
+          <SegmentTimeline>
+            <S t="5300161280" d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+            <S d="95232"></S>
+            <S d="96256" r="2"></S>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
